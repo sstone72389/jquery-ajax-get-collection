@@ -5,7 +5,6 @@
 // also, follow a convention for handlers. here, I name my handler
 // beginning with 'on' to denote that it is done when the GET /books
 // button is clicked
-c
 
 module.exports = {
 
