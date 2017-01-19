@@ -1,5 +1,14 @@
 'use strict'
 
-module.exports = {
+const app = require('../app.js')
 
+const index = function () {
+  return $.ajax({
+    url: app.host + '/books',
+    method: 'GET'
+  })
+}
+
+module.exports = {
+  index
 }
