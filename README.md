@@ -43,7 +43,7 @@ Retrieve a list of books from the API
 
 ### Demo: Browser Book Collection
 
-Entering `http://localhost:3000/books` into the chrome address bar.
+Entering `http://localhost:4741/books` into the chrome address bar.
 
 If not already installed in chrome, let's add a [JSON formatting utility](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=en).
 
