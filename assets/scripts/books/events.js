@@ -1,4 +1,4 @@
-'use strict';
+'use strict'
 
 // get in the habit of naming your handlers, it eases debugging.
 //
@@ -8,4 +8,4 @@
 
 module.exports = {
 
-};
+}

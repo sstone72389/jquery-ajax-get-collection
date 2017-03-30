@@ -64,7 +64,7 @@ We'll take a stepped approach:
 1.  Add a submit input to the form.
 1.  Add a submit handler to the form in the document ready event in
  `assets/scripts/index.js`.
-1.  Add a collection success and fail handler to `assets/scripts/ui.js`.
+1.  Add a collection success and fail handler to `assets/scripts/books/ui.js`.
 1.  Add a book collection retrieval method to `assets/scripts/library-api.js`.
 1.  Invoke the collection retrieval method from the submit handler passing the
  success and fail callbacks.
