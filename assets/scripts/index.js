@@ -11,3 +11,8 @@ $(() => {
 // const example = require('./example')
 
 // use require without a reference to ensure a file is bundled
+const bookEvents = require('./books/events')
+// $(() => is shorthand for document.ready
+$(() => {
+  $('.books').on('submit', bookEvents.onGetBooks)
+})
